@@ -1,0 +1,21 @@
+[submodule "Engine"]
+	path = Engine
+	url = http://tfs.zepetto.com/tfs/Console/PointBlank_Neo/_git/PBNeo-Engine
+	branch = master
+[submodule "PBNeo"]
+	path = PBNeo
+	url = http://tfs.zepetto.com/tfs/Console/PointBlank_Neo/_git/PBNeo-PBNeo
+	branch = develop
+
+[submodule "CoherentUISample"]
+	path = CoherentUISample
+	url = http://tfs.zepetto.com/tfs/Console/PointBlank_Neo/_git/PBNeo-CoherentUI
+	branch = master
+[submodule "PBNeoRelease"]
+	path = PBNeoRelease
+	url = http://tfs.zepetto.com/tfs/Console/PointBlank_Neo/_git/PBNeo-Release
+	branch = master
+[submodule "AddOnAsset"]
+	path = AddOnAsset
+	url = http://tfs.zepetto.com/tfs/Console/PointBlank_Neo/_git/AddOnAsset
+	branch = master
