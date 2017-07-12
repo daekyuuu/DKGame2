@@ -1,0 +1,18 @@
+#pragma once
+
+#define USER_NODE_COUNT					10
+
+enum USER_STATE
+{
+	USER_STATE_NONE,
+	USER_STATE_LOGIN,
+	USER_STATE_WAITING,
+	USER_STATE_ROOM,
+	USER_STATE_BATTLE,
+};
+
+struct SERVER_TYPE_INFO
+{
+	SERVER_TYPE			m_eType;
+	UINT32				m_ui32Idx;
+};

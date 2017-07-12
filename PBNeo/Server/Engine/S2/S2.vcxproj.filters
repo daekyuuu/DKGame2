@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{476a2b66-8a71-40a2-beba-f34c03885af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{f7caebd5-ef32-4574-91f7-468965c6a828}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2String.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Header.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Error.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2MiniDump.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2NetIocpWorker.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2NetServerContext.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2NetServerSocket.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2NetSession.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2NetSessionManager.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2NetAcceptor.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2NetCompletionHandler.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2CriticalSection.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2List.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Memory.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Packet.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2DBAdo.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Net.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2DB.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Server.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Service.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="DATE32.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Thread.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Time.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\S2.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="S2ContainerList.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2RingBuffer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2JsonFile.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Config.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2LogFileA.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2LogFileBase.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2LogFileW.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2ListBin.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2SocketConnector.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="S2NetConnector.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2String.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2.cpp">
+      <Filter>Define</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Error.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2MiniDump.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2NetIocpWorker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2NetServerContext.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2NetServerSocket.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2NetSession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2NetSessionManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2NetAcceptor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2NetCompletionHandler.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2CriticalSection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2List.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Memory.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Packet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2DBAdo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Net.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2DB.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Server.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Service.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="DATE32.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Thread.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Time.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2ContainerList.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2RingBuffer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2JsonFile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Config.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2LogFileA.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2LogFileBase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2LogFileW.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2ListBin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2SocketConnector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="S2NetConnector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base Files">
+      <UniqueIdentifier>{8854030a-86ae-4b14-84f5-d3933f45c5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{1a588898-e7e1-4d2d-b194-b7c4b94ff988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base Files\Dialog">
+      <UniqueIdentifier>{2f4879f8-8644-474b-8c7e-8018883f284e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base Files\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{22aff332-4f81-40b6-aa04-b6589a98d6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SVRCommon">
+      <UniqueIdentifier>{908deb71-5ccf-4d2a-8002-1e58465c61e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetDefine">
+      <UniqueIdentifier>{f9a304fd-7ddb-424f-8389-15d16adfa126}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="Config.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionMgr.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerApp.h">
+      <Filter>Base Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerDlg.h">
+      <Filter>Base Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerDefine.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\SVRDefine.h">
+      <Filter>SVRCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectorCenter.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\SVRPacket.h">
+      <Filter>SVRCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\NetDefine.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\NetPacket.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\NetProtocol.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\NetResult.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\S2MO.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\S2MODataFile.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\S2MODataType.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\S2MODefine.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Source\PBGame\Public\Net\S2MOPacket.h">
+      <Filter>NetDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomContainer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomMgr.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionMgr.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerApp.cpp">
+      <Filter>Base Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerDlg.cpp">
+      <Filter>Base Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectorCenter.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomContainer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomMgr.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Server.ico">
+      <Filter>Base Files\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Server.rc">
+      <Filter>Base Files\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Server.rc2">
+      <Filter>Base Files\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
